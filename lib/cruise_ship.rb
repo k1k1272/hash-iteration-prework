@@ -8,6 +8,6 @@
 
 def select_winner(passengers)
   winner = ""
-  passengers.each { |suite, name| winner = name if suite == :suite_a && name[0] == "a"}
+  passengers.each { |suite, name| winner = name if suite == :suite_a && name[0] == "A"}
   winner
 end
